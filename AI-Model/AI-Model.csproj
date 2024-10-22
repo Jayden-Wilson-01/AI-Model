@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.ML.FastTree" Version="3.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="AIModels\Emotions\Emotions.mlnet">
+    <None Update="AIModels\Emotions\EmotionsModel.mlnet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

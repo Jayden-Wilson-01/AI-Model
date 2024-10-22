@@ -1,4 +1,4 @@
-﻿using AI_Model.AIModels.EmotionsAIModel;
+﻿using AI_Model.AIModels;
 
 namespace AI_Model
 {
@@ -6,7 +6,7 @@ namespace AI_Model
     {
         static void Main(string[] args)
         {
-            EmotionsAIModel.ConsumeModel();
+            AIModelClass.EmotionsModel();
         }
     }
 }

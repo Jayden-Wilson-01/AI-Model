@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using System.IO;
 using System.Collections.Generic;
-namespace AI_Model
+namespace AI_Model.AIModels.Emotions
 {
     public partial class Emotions
     {
@@ -52,7 +52,7 @@ namespace AI_Model
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("AIModels/Emotions/Emotions.mlnet");
+        private static string MLNetModelPath = Path.GetFullPath("AIModels/Emotions/EmotionsModel.mlnet");
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

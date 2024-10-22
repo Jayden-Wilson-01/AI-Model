@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using AI_Model.AIModels;
 
-namespace AI_Model.AIModels.EmotionsAIModel
+namespace AI_Model.AIModels.Emotions.EmotionsAIModelClass
 {
-    public static class EmotionsAIModel
+    public static class EmotionsAIModelClass
     {
         /// <summary>
         /// A method to turn user input to model input
@@ -54,9 +54,7 @@ namespace AI_Model.AIModels.EmotionsAIModel
             string? prediction = PredictData(modelInput);
 
             // Output prediction to console
-            Console.WriteLine($"Prediction: {prediction}");
-
-            Console.ReadLine();
+            Console.WriteLine($"Prediction: {prediction}\n\n");
         }
     }
 }

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AI_Model
+namespace AI_Model.AIModels.Emotions
 {
     public partial class Emotions
     {
