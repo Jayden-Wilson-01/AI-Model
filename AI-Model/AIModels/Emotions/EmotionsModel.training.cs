@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
-using Microsoft.ML.Trainers.FastTree;
+using Microsoft.ML.Trainers.LightGbm;
 
 namespace AI_Model.AIModels.Emotions
 {
-    public partial class Emotions
+    public partial class EmotionsModel
     {
-        public const string RetrainFilePath =  @"\Datasets\Emotions.csv";
+        public const string RetrainFilePath =  @"AI-Model\AI-Model\Datasets\Emotions.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -93,7 +93,7 @@ namespace AI_Model.AIModels.Emotions
             var pipeline = mlContext.Transforms.Text.FeaturizeText(inputColumnName:@"Emotion",outputColumnName:@"Emotion")      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"Emotion"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"Suggestion",inputColumnName:@"Suggestion",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastForest(new FastForestBinaryTrainer.Options(){NumberOfTrees=8,NumberOfLeaves=4,FeatureFraction=0.95460445F,LabelColumnName=@"Suggestion",FeatureColumnName=@"Features"}),labelColumnName:@"Suggestion"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=1017,MinimumExampleCountPerLeaf=21,LearningRate=0.4518353053838427,LabelColumnName=@"Suggestion",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.9999997766729865,FeatureFraction=0.9860812298640945,L1Regularization=9.125818641606943E-10,L2Regularization=0.9999997766729865},MaximumBinCountPerFeature=316}))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;

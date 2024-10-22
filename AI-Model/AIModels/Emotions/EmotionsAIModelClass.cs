@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using AI_Model.AIModels;
+using AI_Model.AIModels.Emotions;
 
 namespace AI_Model.AIModels.Emotions.EmotionsAIModelClass
 {
@@ -15,10 +15,10 @@ namespace AI_Model.AIModels.Emotions.EmotionsAIModelClass
         /// </summary>
         /// <param name="emotion">User emotion to turn into model input</param>
         /// <returns></returns>
-        private static Emotions.ModelInput ModelInput(string emotion)
+        private static EmotionsModel.ModelInput ModelInput(string emotion)
         {
             // Load data into model input 
-            Emotions.ModelInput modelInput = new Emotions.ModelInput()
+            EmotionsModel.ModelInput modelInput = new EmotionsModel.ModelInput()
             {
                 Emotion = emotion
             };
@@ -32,14 +32,14 @@ namespace AI_Model.AIModels.Emotions.EmotionsAIModelClass
         /// </summary>
         /// <param name="modelInput">Model input is the emotion</param>
         /// <returns></returns>
-        private static string PredictData(Emotions.ModelInput modelInput)
+        private static string PredictData(EmotionsModel.ModelInput modelInput)
         {
             // Return the prediction
-            return Emotions.Predict(modelInput).PredictedLabel.ToString();
+            return EmotionsModel.Predict(modelInput).PredictedLabel.ToString();
         }
 
         /// <summary>
-        /// A method to consume emotions AI model
+        /// A method to consume EmotionsModel AI model
         /// </summary>
         public static void ConsumeModel()
         {
@@ -48,7 +48,7 @@ namespace AI_Model.AIModels.Emotions.EmotionsAIModelClass
             string? emotion = Console.ReadLine();
 
             // Turn user input to model input
-            Emotions.ModelInput modelInput = ModelInput(emotion);
+            EmotionsModel.ModelInput modelInput = ModelInput(emotion);
 
             // Use model input to predict data
             string? prediction = PredictData(modelInput);

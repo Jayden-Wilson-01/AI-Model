@@ -42,11 +42,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastForestOva",
-        "Score": 0.51323413159730291,
-        "RuntimeInSeconds": 211.316,
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.67713089979074625,
+        "RuntimeInSeconds": 145.279,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
+          "_SCHEMA_": "e0 * e1 * e2 * e5 * e10",
           "e0": {
             "InputColumnName": "Emotion",
             "OutputColumnName": "Emotion"
@@ -66,10 +66,16 @@
             "InputColumnName": "Suggestion",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e4": {
-            "NumberOfTrees": 8,
+          "e5": {
             "NumberOfLeaves": 4,
-            "FeatureFraction": 0.95460445,
+            "MinimumExampleCountPerLeaf": 21,
+            "LearningRate": 0.4518353053838427,
+            "NumberOfTrees": 1017,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 316,
+            "FeatureFraction": 0.98608122986409452,
+            "L1Regularization": 9.1258186416069427E-10,
+            "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "Suggestion",
             "FeatureColumnName": "Features"
           }
@@ -78,89 +84,9 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.40963806866620162,
-        "RuntimeInSeconds": 422.45,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
-          "e0": {
-            "InputColumnName": "Emotion",
-            "OutputColumnName": "Emotion"
-          },
-          "e1": {
-            "InputColumnNames": [
-              "Emotion"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "OutputColumnName": "Suggestion",
-            "InputColumnName": "Suggestion",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e3": {
-            "NumberOfLeaves": 6,
-            "MinimumExampleCountPerLeaf": 14,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 291,
-            "FeatureFraction": 0.99999999,
-            "LearningRate": 0.1002787987551617,
-            "LabelColumnName": "Suggestion",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.39214136247384335,
-        "RuntimeInSeconds": 256.611,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e10",
-          "e0": {
-            "InputColumnName": "Emotion",
-            "OutputColumnName": "Emotion"
-          },
-          "e1": {
-            "InputColumnNames": [
-              "Emotion"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e10": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "OutputColumnName": "Suggestion",
-            "InputColumnName": "Suggestion",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e3": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 17,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 295,
-            "FeatureFraction": 0.944805617969537,
-            "LearningRate": 0.086371821114015465,
-            "LabelColumnName": "Suggestion",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
         "TrainerName": "FastForestOva",
-        "Score": 0.374948461598078,
-        "RuntimeInSeconds": 226.868,
+        "Score": 0.56210028675501822,
+        "RuntimeInSeconds": 214.474,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
           "e0": {
@@ -183,8 +109,80 @@
             "AddKeyValueAnnotationsAsText": false
           },
           "e4": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
+            "NumberOfTrees": 18,
+            "NumberOfLeaves": 10,
+            "FeatureFraction": 0.9793551,
+            "LabelColumnName": "Suggestion",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.55903123304657831,
+        "RuntimeInSeconds": 466.86,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
+          "e0": {
+            "InputColumnName": "Emotion",
+            "OutputColumnName": "Emotion"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Emotion"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Suggestion",
+            "InputColumnName": "Suggestion",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e4": {
+            "NumberOfTrees": 95,
+            "NumberOfLeaves": 11,
+            "FeatureFraction": 0.851664,
+            "LabelColumnName": "Suggestion",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestOva",
+        "Score": 0.54726652716422541,
+        "RuntimeInSeconds": 347.036,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
+          "e0": {
+            "InputColumnName": "Emotion",
+            "OutputColumnName": "Emotion"
+          },
+          "e1": {
+            "InputColumnNames": [
+              "Emotion"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e10": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "OutputColumnName": "Suggestion",
+            "InputColumnName": "Suggestion",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e4": {
+            "NumberOfTrees": 20,
+            "NumberOfLeaves": 23,
             "FeatureFraction": 1.0,
             "LabelColumnName": "Suggestion",
             "FeatureColumnName": "Features"
@@ -195,8 +193,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastForestOva",
-        "Score": 0.374948461598078,
-        "RuntimeInSeconds": 249.713,
+        "Score": 0.54163992869875222,
+        "RuntimeInSeconds": 402.341,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e4 * e10",
           "e0": {
@@ -219,9 +217,9 @@
             "AddKeyValueAnnotationsAsText": false
           },
           "e4": {
-            "NumberOfTrees": 4,
-            "NumberOfLeaves": 4,
-            "FeatureFraction": 1.0,
+            "NumberOfTrees": 35,
+            "NumberOfLeaves": 31,
+            "FeatureFraction": 0.9646408,
             "LabelColumnName": "Suggestion",
             "FeatureColumnName": "Features"
           }
@@ -243,7 +241,7 @@
     },
     "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7 + e8 + e9) * e10",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\AIModels\\Emotions\\Emotions.mlnet"
+    "ModelFilePath": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\AIModels\\Emotions\\EmotionsModel.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,
@@ -252,7 +250,7 @@
     "Subsampling": false,
     "Tuner": "eci-cfo",
     "Type": "ClassificationTrainingOption",
-    "TrainingTime": 2800,
+    "TrainingTime": 3600,
     "OptimizeMetric": "MacroAccuracy",
     "LabelColumn": "Suggestion",
     "AvailableTrainers": [

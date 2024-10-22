@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace AI_Model.AIModels.Emotions
 {
-    public partial class Emotions
+    public partial class EmotionsModel
     {
         /// <summary>
         /// Permutation feature importance (PFI) is a technique to determine the importance 

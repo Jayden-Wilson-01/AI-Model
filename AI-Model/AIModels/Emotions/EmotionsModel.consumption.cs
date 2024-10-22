@@ -7,10 +7,10 @@ using System.IO;
 using System.Collections.Generic;
 namespace AI_Model.AIModels.Emotions
 {
-    public partial class Emotions
+    public partial class EmotionsModel
     {
         /// <summary>
-        /// model input class for Emotions.
+        /// model input class for EmotionsModel.
         /// </summary>
         #region model input class
         public class ModelInput
@@ -28,7 +28,7 @@ namespace AI_Model.AIModels.Emotions
         #endregion
 
         /// <summary>
-        /// model output class for Emotions.
+        /// model output class for EmotionsModel.
         /// </summary>
         #region model output class
         public class ModelOutput
