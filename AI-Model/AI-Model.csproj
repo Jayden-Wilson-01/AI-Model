@@ -12,9 +12,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ML" Version="3.0.1" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="3.0.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="3.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="AIModels\Emotions\EmotionsModel.mlnet">
+    <None Update="Models\Emotions\EmotionsModel.mlnet">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

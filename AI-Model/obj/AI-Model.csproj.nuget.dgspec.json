@@ -58,6 +58,10 @@
             "Microsoft.ML.FastTree": {
               "target": "Package",
               "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           },
           "imports": [

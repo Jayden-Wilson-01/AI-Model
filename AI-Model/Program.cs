@@ -1,4 +1,10 @@
-﻿using AI_Model.AIModels;
+﻿/* Program Class
+ * This class is used to start console
+ * Last Edited: 22 Oct 2024 - Jayden Wilson
+ */
+
+using AI_Model.Handlers;
+using AI_Model.Models.AllModels;
 
 namespace AI_Model
 {
@@ -6,7 +12,7 @@ namespace AI_Model
     {
         static void Main(string[] args)
         {
-            AIModelClass.EmotionsModel();
+            OptionsHandler.ModelOptions();
         }
     }
 }

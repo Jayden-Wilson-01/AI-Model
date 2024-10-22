@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "LightGBM/3.3.5": {
+        "type": "package",
+        "build": {
+          "build/LightGBM.props": {},
+          "build/LightGBM.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/lib_lightgbm.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/lib_lightgbm.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/lib_lightgbm.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lightgbm.exe": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "Microsoft.ML/3.0.1": {
         "type": "package",
         "dependencies": {
@@ -203,6 +228,24 @@
           "runtimes/win-x86/native/FastTreeNative.dll": {
             "assetType": "native",
             "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.LightGbm/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "LightGBM": "3.3.5",
+          "Microsoft.ML": "3.0.1",
+          "Microsoft.ML.FastTree": "3.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -416,6 +459,23 @@
     }
   },
   "libraries": {
+    "LightGBM/3.3.5": {
+      "sha512": "6LwKO13R9q8zZHbYNeHhayUj3/sN410L6B9QZfV/tyzuoaddur1Uy0yV0gK4FfLl3FVC0LxnfiCOrHva0xX3yQ==",
+      "type": "package",
+      "path": "lightgbm/3.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LightGBM.props",
+        "build/LightGBM.targets",
+        "lightgbm.3.3.5.nupkg.sha512",
+        "lightgbm.nuspec",
+        "runtimes/linux-x64/native/lib_lightgbm.so",
+        "runtimes/osx-x64/native/lib_lightgbm.dylib",
+        "runtimes/win-x64/native/lib_lightgbm.dll",
+        "runtimes/win-x64/native/lightgbm.exe"
+      ]
+    },
     "Microsoft.ML/3.0.1": {
       "sha512": "AE4DFwsDNVM5+2RVH3X9mRsqPSs+DrEd7TVA5TyLxPEerQC8wl5YTVQOVMsWCp2AroWGXEIny8xyXdOXfC+9BA==",
       "type": "package",
@@ -521,6 +581,22 @@
         "runtimes/osx-x64/native/libFastTreeNative.dylib",
         "runtimes/win-x64/native/FastTreeNative.dll",
         "runtimes/win-x86/native/FastTreeNative.dll"
+      ]
+    },
+    "Microsoft.ML.LightGbm/3.0.1": {
+      "sha512": "SCAiuo4FKNBoEijw+UZFdCQrTvHQ0v4W96hxxt9WHZOFIzfpVsKe6XiMPfwd665ZHhIygxMyCxH9ZFgj76Rehw==",
+      "type": "package",
+      "path": "microsoft.ml.lightgbm/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.LightGbm.dll",
+        "lib/netstandard2.0/Microsoft.ML.LightGbm.xml",
+        "microsoft.ml.lightgbm.3.0.1.nupkg.sha512",
+        "microsoft.ml.lightgbm.nuspec",
+        "mlnetlogo.png"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1242,7 +1318,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.ML >= 3.0.1",
-      "Microsoft.ML.FastTree >= 3.0.1"
+      "Microsoft.ML.FastTree >= 3.0.1",
+      "Microsoft.ML.LightGbm >= 3.0.1"
     ]
   },
   "packageFolders": {
@@ -1301,6 +1378,10 @@
             "version": "[3.0.1, )"
           },
           "Microsoft.ML.FastTree": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Microsoft.ML.LightGbm": {
             "target": "Package",
             "version": "[3.0.1, )"
           }
