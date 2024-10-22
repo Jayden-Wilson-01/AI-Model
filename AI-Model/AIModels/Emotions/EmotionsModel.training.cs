@@ -10,7 +10,7 @@ using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
 using Microsoft.ML.Trainers.FastTree;
 
-namespace AI_Model
+namespace AI_Model.AIModels.Emotions
 {
     public partial class Emotions
     {

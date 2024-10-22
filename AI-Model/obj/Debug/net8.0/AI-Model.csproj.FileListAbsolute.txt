@@ -40,4 +40,4 @@ C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\bin\Debu
 C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\bin\Debug\net8.0\runtimes\win-x86\native\FastTreeNative.dll
 C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\obj\Debug\net8.0\AI-Model.csproj.AssemblyReference.cache
 C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\obj\Debug\net8.0\AI-Model.csproj.Up2Date
-C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\bin\Debug\net8.0\AIModels\Emotions\Emotions.mlnet
+C:\Users\Jayde\OneDrive - Tabber\Personal Development\AI-Model\AI-Model\bin\Debug\net8.0\AIModels\Emotions\EmotionsModel.mlnet
