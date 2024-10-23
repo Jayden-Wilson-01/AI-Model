@@ -1,4 +1,9 @@
-﻿using AI_Model.Models.AllModels;
+﻿/* AI Model Class
+ * This class is used to add options to the console program 
+ * Last Edited: 23 Oct 2024 - Jayden Wilson
+ */
+
+using AI_Model.Models.AllModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
