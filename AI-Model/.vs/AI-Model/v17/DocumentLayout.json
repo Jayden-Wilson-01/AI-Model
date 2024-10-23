@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:models\\emotions\\emotionsaimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\handlers\\optionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:handlers\\optionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\ai-model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:ai-model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\models\\all models\\aimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:models\\all models\\aimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\models\\emotions\\emotionsmodel.training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:models\\emotions\\emotionsmodel.training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\models\\emotions\\emotionsmodel.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:models\\emotions\\emotionsmodel.evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\models\\emotions\\emotionsmodel.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:models\\emotions\\emotionsmodel.consumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\handlers\\optionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|solutionrelative:handlers\\optionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4EAE0F2-9F63-43EF-AB9D-7F612ED11CB9}|AI-Model.csproj|c:\\users\\jayde\\onedrive - tabber\\personal development\\ai-model\\ai-model\\models\\emotions\\emotionsmodel.mbconfig||{93FA4DC3-61EC-47AF-B0BA-50CAD3CAF049}",
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,39 +43,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OptionsHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Handlers\\OptionsHandler.cs",
-              "RelativeDocumentMoniker": "Handlers\\OptionsHandler.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Handlers\\OptionsHandler.cs",
-              "RelativeToolTip": "Handlers\\OptionsHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T16:59:22.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AI-Model",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\AI-Model.csproj",
-              "RelativeDocumentMoniker": "AI-Model.csproj",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\AI-Model.csproj",
-              "RelativeToolTip": "AI-Model.csproj",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-22T16:58:53.688Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:53:54.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "EmotionsModel.mbconfig",
               "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.mbconfig",
               "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsModel.mbconfig",
               "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.mbconfig",
               "RelativeToolTip": "Models\\Emotions\\EmotionsModel.mbconfig",
               "Icon": "7f5c38b0-f0bc-4551-a9a8-b4f467cc4670.000012|",
-              "WhenOpened": "2024-10-22T16:41:42.428Z",
+              "WhenOpened": "2024-10-23T16:52:25.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmotionsModel.consumption.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.consumption.cs",
+              "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsModel.consumption.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.consumption.cs",
+              "RelativeToolTip": "Models\\Emotions\\EmotionsModel.consumption.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawDYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:44:08.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OptionsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Handlers\\OptionsHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\OptionsHandler.cs",
+              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Handlers\\OptionsHandler.cs",
+              "RelativeToolTip": "Handlers\\OptionsHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:34:44.333Z",
               "EditorCaption": ""
             },
             {
@@ -102,74 +99,9 @@
               "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsAIModel.cs",
               "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsAIModel.cs",
               "RelativeToolTip": "Models\\Emotions\\EmotionsAIModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwDwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:29:06.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AIModels.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\All Models\\AIModels.cs",
-              "RelativeDocumentMoniker": "Models\\All Models\\AIModels.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\All Models\\AIModels.cs",
-              "RelativeToolTip": "Models\\All Models\\AIModels.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:28:23.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmotionsModel.training.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.training.cs",
-              "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsModel.training.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.training.cs",
-              "RelativeToolTip": "Models\\Emotions\\EmotionsModel.training.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:28:20.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmotionsModel.evaluate.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.evaluate.cs",
-              "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsModel.evaluate.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.evaluate.cs",
-              "RelativeToolTip": "Models\\Emotions\\EmotionsModel.evaluate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:28:14.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmotionsModel.consumption.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.consumption.cs",
-              "RelativeDocumentMoniker": "Models\\Emotions\\EmotionsModel.consumption.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Models\\Emotions\\EmotionsModel.consumption.cs",
-              "RelativeToolTip": "Models\\Emotions\\EmotionsModel.consumption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:24:21.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Jayde\\OneDrive - Tabber\\Personal Development\\AI-Model\\AI-Model\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T13:15:56.318Z",
+              "WhenOpened": "2024-10-23T14:57:02.42Z",
               "EditorCaption": ""
             }
           ]

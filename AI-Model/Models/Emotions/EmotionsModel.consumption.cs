@@ -52,7 +52,7 @@ namespace AI_Model.Models.Emotions
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("AIModels/Emotions/EmotionsModel.mlnet");
+        private static string MLNetModelPath = Path.GetFullPath("Models/Emotions/EmotionsModel.mlnet");
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

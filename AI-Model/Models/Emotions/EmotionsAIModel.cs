@@ -16,12 +16,28 @@ namespace AI_Model.Models.Emotions
     public static class EmotionsAIModel
     {
         /// <summary>
-        /// A method to turn user input to model input
+        /// A method to get user Input 
         /// </summary>
-        /// <param name="emotion">User emotion to turn into model input</param>
-        /// <returns></returns>
-        private static EmotionsModel.ModelInput ModelInput(string emotion)
+        /// <returns>User input in model input type</returns>
+        private static EmotionsModel.ModelInput InputEmotion()
         {
+            string? emotion;
+
+            // Loop until user puts in a value
+            do
+            {
+                Console.Write($"Enter emotion with context: ");
+                emotion = Console.ReadLine();
+
+                // If user enters a value exit loop and continue
+                if (emotion != null)
+                {
+                    break;
+                }
+            }
+            while (true);
+
+
             // Load data into model input 
             EmotionsModel.ModelInput modelInput = new EmotionsModel.ModelInput()
             {
@@ -33,14 +49,16 @@ namespace AI_Model.Models.Emotions
         }
 
         /// <summary>
-        /// A method to predict user suggestion based on model input
+        /// A method to output predicted suggestion
         /// </summary>
         /// <param name="modelInput">Model input is the emotion</param>
-        /// <returns></returns>
-        private static string PredictData(EmotionsModel.ModelInput modelInput)
+        private static void OutputPrediction(EmotionsModel.ModelInput modelInput)
         {
-            // Return the prediction
-            return EmotionsModel.Predict(modelInput).PredictedLabel.ToString();
+            // Predict the suggestion for the inputted model input
+            string prediction =  EmotionsModel.Predict(modelInput).PredictedLabel.ToString();
+
+            // Display suggestion
+            Console.WriteLine($"Predicted Value Suggestion: {prediction}");
         }
 
         /// <summary>
@@ -48,18 +66,12 @@ namespace AI_Model.Models.Emotions
         /// </summary>
         public static void ConsumeModel()
         {
-            // Ask user for emotion
-            Console.Write("Enter emotion: ");
-            string? emotion = Console.ReadLine();
+            /* Passed InputEmotion() as a parameter as OutputPrediction() 
+             * has the parameter EmotionsModel.ModelInput modelInput which 
+             * InputEmotion() returns  
+             */
 
-            // Turn user input to model input
-            EmotionsModel.ModelInput modelInput = ModelInput(emotion);
-
-            // Use model input to predict data
-            string? prediction = PredictData(modelInput);
-
-            // Output prediction to console
-            Console.WriteLine($"Prediction: {prediction}\n\n");
+            OutputPrediction(InputEmotion());
         }
     }
 }

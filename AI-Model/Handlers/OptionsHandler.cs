@@ -14,13 +14,14 @@ namespace AI_Model.Handlers
         /// </summary>
         public static void ModelOptions()
         {
-            int option = 0;
+            int? option = 0;
 
             do
             {
                 try
                 {
                     // Displays options
+                    Console.WriteLine();
                     Console.WriteLine("1.Emotions AI Model");
                     Console.WriteLine("2.Exit");
                     Console.WriteLine();
