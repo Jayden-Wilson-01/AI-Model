@@ -3,7 +3,7 @@
 ## Overview
 This project showcases a selection of AI Models that have been trained on [datasets](https://github.com/Jayden-Wilson-01/AI-Model/tree/main/AI-Model/Datasets) included in this project using the [ML.NET Model Builder](https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet/model-builder).
 Later in the README we will look at each AI model that this project has to offer in more detail. 
-**All AI Models in this project are for experimental and educational purposes only and should not be used in a professional environment.** 
+**All AI Models in this project are for experimental and educational purposes only and should not be used in a professional environment, as results are mostly incorrect due to little traning and training data.** 
 Below is a list of the AI Models that this project has to offer:
 - Emotions AI Model
 
